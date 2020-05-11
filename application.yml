@@ -1,6 +1,5 @@
-my:
-   greeting:Hello
-   app:Config App
-   list:one,two,three
-app:
-    description:This is my app name ${my.app}  
+app.name=Config App
+app.description=This is my app name ${app.name}     
+      
+my.greeting=Hello from cloud config
+my.list=one,two,three
